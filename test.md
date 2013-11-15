@@ -1,7 +1,7 @@
 ---
 layout: default
 title: TESTMD
-stylesheets: [common.css]
+stylesheets: [common]
 ---
 
 test.md
