@@ -1,3 +1,28 @@
 <div id="sidebar">
+  <div id="about">
+    <!-- about me -->
+    <h3>
+      自己紹介
+    </h3>
+    <p>
+      Ruby/DXRubyを愛用する学生。優秀な仲間とRPGを作ろうとしている。<br />
+      このページでは、自分のしたことを公開していきます<br />
+      Twitter:<a href="http://twitter.com/GameKazu">@GameKazu</a>
+    </p>
+  </div>
   
+  <div id="recent">
+    <h3>
+      最近の記事
+    </h3>
+    <ul>
+    {% for post in site.posts limit:10 %}
+      <li>
+        <a href="{{ post.url }}">
+          {{ post.date | "[%Y/%m/%d]"}}{{ post.title }}
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
 </div>
