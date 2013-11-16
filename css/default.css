@@ -16,7 +16,7 @@ body {
   float:left;
   margin-right:-200px;
   
-  background-color:#ffffff;
+  background-color:white;
 }
 
 #main > * {
@@ -31,7 +31,11 @@ body {
 }
 
 h3 {
-  font-weight:underline #ff0000;
+  font-weight:underline red;
+  border-top:solid 2px green;
+  border-bottom:solid 2px green;
+  text-align:center;
+  background-color:#ccffff;
 }
 
 h3:first-letter {
