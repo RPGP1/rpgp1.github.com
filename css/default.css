@@ -28,6 +28,7 @@ body {
   float:left;
   
   /* 背景タイルをリピートする */
+  background-image:url(https://f.cloud.github.com/assets/5576560/1555561/96321d28-4e69-11e3-886c-f0764c006240.png);
 }
 
 #sidebar > * {
