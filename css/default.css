@@ -30,6 +30,10 @@ body {
   /* 背景タイルをリピートする */
 }
 
+h3 {
+  font-weight:underline #ff0000;
+}
+
 h3:first-letter {
   font-size:2em;
   font-weight:bold;
