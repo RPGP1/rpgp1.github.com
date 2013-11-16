@@ -1,5 +1,7 @@
 body {
   text-align:center;
+  
+  /* 背景用logoをリピートする */
 }
 
 #container {
@@ -13,6 +15,8 @@ body {
   width:100%;
   float:left;
   margin-right:-200px;
+  
+  background-color:#ffffff;
 }
 
 #main > * {
@@ -22,9 +26,18 @@ body {
 #sidebar {
   width:200px;
   float:left;
+  
+  /* 背景タイルをリピートする */
 }
 
 #fotter {
   width:100%;
   clear:left;
+  
+  /* 背景画像 */
+}
+
+img {
+  /* aタグ内などで枠を付けさせない */
+  border:none;
 }
