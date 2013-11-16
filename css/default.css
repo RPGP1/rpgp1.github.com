@@ -30,6 +30,10 @@ body {
   /* 背景タイルをリピートする */
 }
 
+#sidebar > * {
+  margin:5px;
+}
+
 h3 {
   font-weight:underline red;
   border-top:solid 2px green;
