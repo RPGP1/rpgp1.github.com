@@ -30,6 +30,11 @@ body {
   /* 背景タイルをリピートする */
 }
 
+h3:first-letter {
+  font-size:2em;
+  font-weight:bold;
+}
+
 #fotter {
   width:100%;
   clear:left;
