@@ -30,13 +30,15 @@
       最近の記事
     </h3>
     <ul>
-    {% for post in site.posts limit:10 %}
+    {% sortposts %}
+    {% for post in spost limit:10 %}
       <li>
         <a href="{{ post.url }}">
           {{ post.date | "[%Y/%m/%d]"}}{{ post.title }}
         </a>
       </li>
     {% endfor %}
+    {% endsortposts %}
     </ul>
   </div>
 </div>
