@@ -8,10 +8,10 @@ module Jekyll
 #      return "" unless posts
 #      if posts == Array
 #        posts.sort!#{|a,b| (-1) * (a["date"] <=> b["date"])}
-        context.stack do
+#        context.stack do
 #          context["spost"] = posts
           return super
-        end
+#        end
 #      else
 #        context.stack do
 #          context["spost"] = [posts]
