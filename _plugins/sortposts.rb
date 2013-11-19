@@ -5,12 +5,11 @@ module Jekyll
     def render(context)
       site = context.registers[:site]
       posts = site["posts"]
-      posts.sort!{|a,b| (-1) * (a["date"] <=> b["date"])}
+#      posts.sort!{|a,b| (-1) * (a["date"] <=> b["date"])}
       context.stack do
         context["spost"] = posts
-#        return super
+        return super
       end
-      ""
     end
   end
 end
