@@ -7,9 +7,10 @@ module Jekyll
       posts = site["posts"]
       posts.sort!{|a,b| (-1) * (a["date"] <=> b["date"])}
       context.stack do
-#        context["spost"] = posts
-        return super
+        context["spost"] = posts
+#        return super
       end
+      ""
     end
   end
 end
