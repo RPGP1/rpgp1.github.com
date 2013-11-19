@@ -6,8 +6,7 @@ module Jekyll
       site = context.registers[:site] #site
       posts = site["posts"] #site.posts
       return "" unless posts
-      case posts
-      when Array
+      if posts == Array
         posts.sort!{|a,b| (-1) * (a["date"] <=> b["date"])}
         context.stack do
           context["spost"] = posts
