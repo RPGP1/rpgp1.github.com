@@ -4,10 +4,10 @@ module Jekyll
   class SortPostsBlock < Liquid::Block
     def render(context)
       site = context.registers[:site]
-      post = site["posts"]
-      post.sort!{|a,b| (-1) * (a["date"] <=> b["date"])}
+      posts = site["posts"]
+      posts.sort!{|a,b| (-1) * (a["date"] <=> b["date"])}
       context.stack do
-        context["spost"] = post
+        context["spost"] = posts
         return super
       end
     end
