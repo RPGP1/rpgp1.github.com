@@ -18,7 +18,7 @@ module Jekyll
 #          return super
 #        end
       end
-      return "#{posts}"
+      return ""
     end
   end
 end
