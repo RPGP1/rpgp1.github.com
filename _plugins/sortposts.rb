@@ -3,7 +3,7 @@
 module Jekyll
   class SortPostsBlock < Liquid::Block
     def render(context)
-      site = context.registers[:site] #site
+#      site = context.registers[:site] #site
 #      posts = site.registers["posts"] #site.posts
 #      return "" unless posts
 #      if posts == Array
