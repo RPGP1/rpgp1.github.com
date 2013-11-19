@@ -18,7 +18,7 @@ module Jekyll
 #          return super
 #        end
 #      end
-      return "#{site.methods}"
+      return "#{5}"
     end
   end
 end
