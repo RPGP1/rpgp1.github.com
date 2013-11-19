@@ -5,19 +5,20 @@ module Jekyll
     def render(context)
       site = context.registers[:site] #site
       posts = site["posts"] #site.posts
-      return "" unless posts
+#      return "" unless posts
       if posts == Array
         posts.sort!{|a,b| (-1) * (a["date"] <=> b["date"])}
-        context.stack do
-          context["spost"] = posts
-          return super
-        end
-      else
-        context.stack do
-          context["spost"] = [posts]
-          return super
-        end
+#        context.stack do
+#          context["spost"] = posts
+#          return super
+#        end
+#      else
+#        context.stack do
+#          context["spost"] = [posts]
+#          return super
+#        end
       end
+      return "#{posts}"
     end
   end
 end
