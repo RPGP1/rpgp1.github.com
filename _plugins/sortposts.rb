@@ -4,7 +4,7 @@ module Jekyll
   class SortPostsBlock < Liquid::Block
     def render(context)
       site = context.registers[:site] #site
-      posts = site["posts"] #site.posts
+      posts = site.registers["posts"] #site.posts
 #      return "" unless posts
 #      if posts == Array
 #        posts.sort!#{|a,b| (-1) * (a["date"] <=> b["date"])}
