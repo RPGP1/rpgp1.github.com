@@ -11,6 +11,10 @@ body {
   text-align:left;
 }
 
+#header {
+  background-color:#000;
+}
+
 #header > h1 {
   color:#fff;
   font-weight:underline #fff;
@@ -19,6 +23,7 @@ body {
 #header > h1:first-letter {
   color:#000;
   background-color:#fff;
+  font-size:2em;
 }
 
 #main {
