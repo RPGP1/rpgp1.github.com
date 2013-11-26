@@ -50,6 +50,10 @@ blockquote {
   font-size:2em;
 }
 
+#header img {
+  float:right;
+}
+
 #main {
   width:100%;
   float:left;
