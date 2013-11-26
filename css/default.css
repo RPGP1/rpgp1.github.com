@@ -17,7 +17,7 @@ body {
 
 #header > h1 {
   color:#fff;
-  text-decoration:underline;
+  border-bottom:solid 5px #fff;
   margin:5px;
 }
 
