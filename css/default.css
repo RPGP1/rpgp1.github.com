@@ -61,7 +61,8 @@ blockquote {
 }
 
 #main > * {
-  margin-right:200px;
+  margin-right:210px;
+  margin-left:10px;
 }
 
 #main p {
