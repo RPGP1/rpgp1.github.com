@@ -36,13 +36,12 @@ blockquote {
   background-position:left bottom;
   background-repeat:repeat-x;
   padding-bottom:60px;
+  padding-top:10px;
 }
 
 #header > h1 {
   color:#fff;
   border-bottom:solid 5px #fff;
-  margin-left:1em;
-  margin-bottom:10px;
 }
 
 #header > h1:first-letter {
