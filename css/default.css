@@ -1,9 +1,6 @@
-* {
-  margin:0;
-}
-
 body {
   text-align:center;
+  margin:0;
   
   /* 背景用logoをリピートする */
 }
@@ -26,7 +23,7 @@ h3 {
 }
 
 blockquote {
-  background-color:gray;
+  background-color:#eee;
   border:dashed 1px black;
 }
 
@@ -65,6 +62,10 @@ blockquote {
 
 #main > * {
   margin-right:200px;
+}
+
+#main p {
+  padding-left:25px;
 }
 
 #sidebar {
