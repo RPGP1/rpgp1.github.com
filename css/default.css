@@ -17,7 +17,8 @@ body {
 
 #header > h1 {
   color:#fff;
-  font-weight:underline #fff;
+  text-decoration:underline;
+  margin:5px;
 }
 
 #header > h1:first-letter {
@@ -52,7 +53,6 @@ body {
 }
 
 h3 {
-  font-weight:underline red;
   border-top:solid 2px green;
   border-bottom:solid 2px green;
   text-align:center;
