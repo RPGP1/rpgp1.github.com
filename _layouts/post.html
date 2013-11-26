@@ -2,19 +2,12 @@
 layout: default
 ---
 
-<div class="postheader">
-  <div class="postdate">
-    
-  </div>
-  <div class="posttitle">
-    
-  </div>
-</div>
-<div class="postmain">
-  <div class="postcategory">
-    
-  </div>
-  <div class="postcontent">
-    {{ content }}
-  </div>
+<h2>
+  {{ page.title }}
+</h2>
+<p>
+  {{ page.date | "%Y/%m/%d" }}
+</p>
+<div class="postcont">
+  {{ content }}
 </div>
