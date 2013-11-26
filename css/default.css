@@ -69,6 +69,8 @@ blockquote {
 }
 
 #sidebar h3 {
+  color:black;
+  border:none;
   border-top:solid 2px green;
   border-bottom:solid 2px green;
   text-align:center;
