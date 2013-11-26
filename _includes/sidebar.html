@@ -30,13 +30,101 @@
       最近の記事
     </h3>
     <ul>
+    {% assign post0 = false %}
+    {% assign post1 = false %}
+    {% assign post2 = false %}
+    {% assign post3 = false %}
+    {% assign post4 = false %}
+    {% assign post5 = false %}
+    {% assign post6 = false %}
+    {% assign post7 = false %}
+    {% assign post8 = false %}
+    {% assign post9 = false %}
     {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">
-          {{ post.date | "[%Y/%m/%d]"}}{{ post.title }}
-        </a>
-      </li>
+      {% assign nowp = post %}
+      {% if nowp %}
+        {% if post0 == false %}
+          {% assign post0 = nowp %}
+        {% elsif post0.date <= nowp.date %}
+          {% assign post0 = nowp %}
+          {% assign nowp = false %}
+        {% endif %}
+      {% endif %}
+      {% if nowp %}
+        {% if post1 == false %}
+          {% assign post1 = nowp %}
+        {% elsif post1.date <= nowp.date %}
+          {% assign post1 = nowp %}
+          {% assign nowp = false %}
+        {% endif %}
+      {% endif %}
+      {% if nowp %}
+        {% if post2 == false %}
+          {% assign post2 = nowp %}
+        {% elsif post2.date <= nowp.date %}
+          {% assign post2 = nowp %}
+          {% assign nowp = false %}
+        {% endif %}
+      {% endif %}
+      {% if nowp %}
+        {% if post3 == false %}
+          {% assign post3 = nowp %}
+        {% elsif post3.date <= nowp.date %}
+          {% assign post3 = nowp %}
+          {% assign nowp = false %}
+        {% endif %}
+      {% endif %}
+      {% if nowp %}
+        {% if post4 == false %}
+          {% assign post4 = nowp %}
+        {% elsif post4.date <= nowp.date %}
+          {% assign post4 = nowp %}
+          {% assign nowp = false %}
+        {% endif %}
+      {% endif %}
+      {% if nowp %}
+        {% if post5 == false %}
+          {% assign post5 = nowp %}
+        {% elsif post5.date <= nowp.date %}
+          {% assign post5 = nowp %}
+          {% assign nowp = false %}
+        {% endif %}
+      {% endif %}
+      {% if nowp %}
+        {% if post6 == false %}
+          {% assign post6 = nowp %}
+        {% elsif post6.date <= nowp.date %}
+          {% assign post6 = nowp %}
+          {% assign nowp = false %}
+        {% endif %}
+      {% endif %}
+      {% if nowp %}
+        {% if post7 == false %}
+          {% assign post7 = nowp %}
+        {% elsif post7.date <= nowp.date %}
+          {% assign post7 = nowp %}
+          {% assign nowp = false %}
+        {% endif %}
+      {% endif %}
+      {% if nowp %}
+        {% if post8 == false %}
+          {% assign post8 = nowp %}
+        {% elsif post8.date <= nowp.date %}
+          {% assign post8 = nowp %}
+          {% assign nowp = false %}
+        {% endif %}
+      {% endif %}
+      {% if nowp %}
+        {% if post9 == false %}
+          {% assign post9 = nowp %}
+        {% elsif post9.date <= nowp.date %}
+          {% assign post9 = nowp %}
+          {% assign nowp = false %}
+        {% endif %}
+      {% endif %}
     {% endfor %}
+      <li>
+      </li>
     </ul>
   </div>
 </div>
