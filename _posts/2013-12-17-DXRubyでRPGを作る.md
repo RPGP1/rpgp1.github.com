@@ -124,7 +124,7 @@ RubyのModuleには`missing_method(name, *args)`と言うメソッドが設定�
 
 これらを組み合わせて、Dataモジュールは次のようにしてみました。
 
-```ruby
+{% highlighting ruby %}
 module Data
   @@value = {} #Data格納用ハッシュ。変数名に値を対応させる。
   
@@ -140,7 +140,7 @@ module Data
     end
   end
 end
-```
+{% endhighlighting %}
 
 「おい！」思った人も多いでしょう。「こんなのただのハッシュだよ！`Data[:hensuu]=`と変わってないよ！」もっともな指摘です。
 
