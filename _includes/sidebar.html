@@ -46,90 +46,130 @@
         {% if post0 == false %}
           {% assign post0 = nowp %}
           {% assign nowp = false %}
-        {% elsif post0.date <= nowp.date %}
+        {% elsif post0.date < nowp.date %}
           {% assign post0 = nowp %}
           {% assign nowp = false %}
+        {% elsif post0.date == nowp.date %}
+          {% assign p = post0 %}
+          {% assign post0 = nowp %}
+          {% assign nowp = p %}
         {% endif %}
       {% endif %}
       {% if nowp %}
         {% if post1 == false %}
           {% assign post1 = nowp %}
           {% assign nowp = false %}
-        {% elsif post1.date <= nowp.date %}
+        {% elsif post1.date < nowp.date %}
           {% assign post1 = nowp %}
           {% assign nowp = false %}
+        {% elsif post1.date == nowp.date %}
+          {% assign p = post1 %}
+          {% assign post1 = nowp %}
+          {% assign nowp = p %}
         {% endif %}
       {% endif %}
       {% if nowp %}
         {% if post2 == false %}
           {% assign post2 = nowp %}
           {% assign nowp = false %}
-        {% elsif post2.date <= nowp.date %}
+        {% elsif post2.date < nowp.date %}
           {% assign post2 = nowp %}
           {% assign nowp = false %}
+        {% elsif post2.date == nowp.date %}
+          {% assign p = post2 %}
+          {% assign post2 = nowp %}
+          {% assign nowp = p %}
         {% endif %}
       {% endif %}
       {% if nowp %}
         {% if post3 == false %}
           {% assign post3 = nowp %}
           {% assign nowp = false %}
-        {% elsif post3.date <= nowp.date %}
+        {% elsif post3.date < nowp.date %}
           {% assign post3 = nowp %}
           {% assign nowp = false %}
+        {% elsif post3.date == nowp.date %}
+          {% assign p = post3 %}
+          {% assign post3 = nowp %}
+          {% assign nowp = p %}
         {% endif %}
       {% endif %}
       {% if nowp %}
         {% if post4 == false %}
           {% assign post4 = nowp %}
           {% assign nowp = false %}
-        {% elsif post4.date <= nowp.date %}
+        {% elsif post4.date < nowp.date %}
           {% assign post4 = nowp %}
           {% assign nowp = false %}
+        {% elsif post4.date == nowp.date %}
+          {% assign p = post4 %}
+          {% assign post4 = nowp %}
+          {% assign nowp = p %}
         {% endif %}
       {% endif %}
       {% if nowp %}
         {% if post5 == false %}
           {% assign post5 = nowp %}
           {% assign nowp = false %}
-        {% elsif post5.date <= nowp.date %}
+        {% elsif post5.date < nowp.date %}
           {% assign post5 = nowp %}
           {% assign nowp = false %}
+        {% elsif post5.date == nowp.date %}
+          {% assign p = post5 %}
+          {% assign post5 = nowp %}
+          {% assign nowp = p %}
         {% endif %}
       {% endif %}
       {% if nowp %}
         {% if post6 == false %}
           {% assign post6 = nowp %}
           {% assign nowp = false %}
-        {% elsif post6.date <= nowp.date %}
+        {% elsif post6.date < nowp.date %}
           {% assign post6 = nowp %}
           {% assign nowp = false %}
+        {% elsif post6.date == nowp.date %}
+          {% assign p = post6 %}
+          {% assign post6 = nowp %}
+          {% assign nowp = p %}
         {% endif %}
       {% endif %}
       {% if nowp %}
         {% if post7 == false %}
           {% assign post7 = nowp %}
           {% assign nowp = false %}
-        {% elsif post7.date <= nowp.date %}
+        {% elsif post7.date < nowp.date %}
           {% assign post7 = nowp %}
           {% assign nowp = false %}
+        {% elsif post7.date == nowp.date %}
+          {% assign p = post7 %}
+          {% assign post7 = nowp %}
+          {% assign nowp = p %}
         {% endif %}
       {% endif %}
       {% if nowp %}
         {% if post8 == false %}
           {% assign post8 = nowp %}
           {% assign nowp = false %}
-        {% elsif post8.date <= nowp.date %}
+        {% elsif post8.date < nowp.date %}
           {% assign post8 = nowp %}
           {% assign nowp = false %}
+        {% elsif post8.date == nowp.date %}
+          {% assign p = post8 %}
+          {% assign post8 = nowp %}
+          {% assign nowp = p %}
         {% endif %}
       {% endif %}
       {% if nowp %}
         {% if post9 == false %}
           {% assign post9 = nowp %}
           {% assign nowp = false %}
-        {% elsif post9.date <= nowp.date %}
+        {% elsif post9.date < nowp.date %}
           {% assign post9 = nowp %}
           {% assign nowp = false %}
+        {% elsif post9.date == nowp.date %}
+          {% assign p = post9 %}
+          {% assign post9 = nowp %}
+          {% assign nowp = p %}
         {% endif %}
       {% endif %}
     {% endfor %}
