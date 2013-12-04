@@ -1,5 +1,5 @@
 ---
-layput: post
+layout: post
 date: 2013-12-22
 title: 続・DXRubyでRPGを作る
 ---
