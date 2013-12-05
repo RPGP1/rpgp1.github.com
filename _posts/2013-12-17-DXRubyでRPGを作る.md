@@ -129,7 +129,7 @@ module Data
   @@value = {} #Data格納用ハッシュ。変数名に値を対応させる。
   
   def self.method_missing(name,*args) #先ほど出ましたね
-    if name.to_s =~ /[^=]=$/ #正規表現です。"="で終わっていたらtrue
+    if name.to_s =~ /[^=]=$/ #正規表現です。"="一つで終わっていたらtrue
       @@value[name.to_s[0...(name.to_s.size - 1)].to_sym] = args[-1]
       #nameから最後の"="を取った部分のSymbolに最後の引数を対応させました
       
