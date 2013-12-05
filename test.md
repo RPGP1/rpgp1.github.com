@@ -1,84 +1,45 @@
 ---
+layout: test
 ---
 
-    * this is one of the list
-    * this is too
-
-* this is one of the list
-* this is too
-
-"あ" is Japanese letter.
-
-    * あ ...this isn't transformed
-    * So,this is not too.(Because this is in "<p>~</p>".)
-
-* あ ...this isn't transformed
-* So,this is not too.(Because this is in "&lt;p&gt;~&lt;/p&gt;".)
-
-Can you see?
-
-When I write like this:
-
-    * a
-    
-    * あ
-    
-    * a
-    
-    * あ
-
-* a
+"あ", "い", "う", "え" and "お" are Japanese letters.
 
 * あ
 
-* a
+* あい
 
-* あ
+* あいう
 
-Lines which begin "あ" isn't transcformed to list.
+* あいうえ
 
-"い", "う", "え" and "お" are Japanese letters.
-
-    * あ
-    
-    * a
-    
-    * い
-    
-    * b
-    
-    * う
-    
-    * c
-    
-    * え
-    
-    * d
-    
-    * お
-    
-    * e
-
-* あ
+* あいうえお
 
 * a
 
-* い
+* ab
 
-* b
+* abc
 
-* う
+* abcd
 
-* c
+* abcde
 
-* え
+* あa
 
-* d
+* あいa
 
-* お
+* あいうa
 
-* e
+* あいうえa
 
-Lines began with a Japanese letter isn't tranceformed.
+* あいうえおa
 
-I'm not sure that I could make myself understood in English.
+* aあ
+
+* aあい
+
+* aあいう
+
+* aあいうえ
+
+* aあいうえお
