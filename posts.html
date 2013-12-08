@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<h2>
+  記事一覧
+</h2>
+
+<ul>
+  <script type="text/javascript">
+    var posts = new Array();
+    {% for post in site.posts %}
+      // jekyllから情報をもらい配列に格納
+      // title, excerpt, url, date
+      posts.push(new Array("{{ post.title }}", "{{ post.excerpt }}", "{{ post.url }}", new Date({{ post.date | date: "%Y, %m - 1, %d"}}));
+    {% endfor %}
+    
+    function compare(a, b){
+      return a[3].getTime() - b[3].getTime();
+    }
+    
+    posts.sort(compare);
+    
+    posts.forEach(
+      function writePost(post){
+        yyyy = post[3].getYear();
+        mm = post[3].getMonth() + 1;
+        dd = post[3].getDate();
+        if (yyyy < 2000) { yy += 1900; }
+        if (mm < 10) { mm = "0" + mm; }
+        if (dd < 10) { dd = "0" + dd; }
+        dateS = "[" + yyyy + "/" + mm + "/" + dd + "]";
+        
+        document.write("<li>");
+        document.write("  <a href='" + post[2] + "'>");
+        document.write("    " + dateS + post[0]);
+        document.write("  </a>");
+        document.write("  <p>");
+        document.write("    " + post[1]);
+        document.write("  </p>");
+        document.write("</li>");
+      }
+    );
+  </script>
+</ul>
