@@ -27,7 +27,7 @@ title: 記事一覧
         yyyy = post[3].getYear();
         mm = post[3].getMonth() + 1;
         dd = post[3].getDate();
-        if (yyyy < 2000) { yy += 1900; }
+        if (yyyy < 2000) { yyyy += 1900; }
         if (mm < 10) { mm = "0" + mm; }
         if (dd < 10) { dd = "0" + dd; }
         dateS = "[" + yyyy + "/" + mm + "/" + dd + "]";
