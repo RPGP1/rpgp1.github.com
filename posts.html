@@ -1,5 +1,6 @@
 ---
 layout: default
+title: 記事一覧
 ---
 
 <h2>
@@ -12,7 +13,7 @@ layout: default
     {% for post in site.posts %}
       // jekyllから情報をもらい配列に格納
       // title, excerpt, url, date
-      posts.push(new Array("{{ post.title }}", "{{ post.excerpt }}", "{{ post.url }}", new Date({{ post.date | date: "%Y, %m - 1, %d"}}));
+      posts.push(new Array("{{ post.title }}", "{{ post.excerpt | replace:'\n',''}}", "{{ post.url }}", new Date({{ post.date | date: "%Y, %m - 1, %d"}}));
     {% endfor %}
     
     function compare(a, b){
