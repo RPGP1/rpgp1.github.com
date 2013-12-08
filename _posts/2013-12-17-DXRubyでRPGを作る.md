@@ -2,6 +2,7 @@
 layout: post
 date: 2013-12-17
 title: DXRubyでRPGを作る
+excerpt: ゲームの中でも最も色々な要素が絡みこむRPG。DXRubyで作るにはどうすればいいのか模索してみます。
 ---
 
 ゲームの中でも最も色々な要素が絡みこむRPG。DXRubyで作るにはどうすればいいのか模索してみます。
