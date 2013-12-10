@@ -17,7 +17,7 @@ h2 {
 }
 
 h3 {
-  color:green;
+  color:#B30509;
   border-bottom:solid 5px #680305;
   border-left:solid 20px #680305;
 }
@@ -67,6 +67,14 @@ blockquote {
 
 #main p {
   padding-left:25px;
+}
+
+#main code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+#main ul {
+  list-style-type: square;
 }
 
 #sidebar {
