@@ -109,6 +109,11 @@ blockquote {
   clear:left;
   
   /* 背景画像 */
+  background-color:#680305;
+  background-image:url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/footerback.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/footerline.png);
+  background-repeat:no-repeat, repeat-x;
+  background-position:top center, top, left;
+  padding-top:375px;
 }
 
 .postcont {
