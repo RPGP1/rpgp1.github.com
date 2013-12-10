@@ -20,7 +20,7 @@ DXRuby依存のRPG製作向けライブラリです。
 
 現在は雑多なスクリプト群ですが、[GitHub](http://github.com/rpgp1/tool "GitHubにジャンプします")に公開してあります。
 
-この中で完成に近いものは、[イベント管理](https://github.com/RPGP1/Tool/blob/master/i386-msvcrt/RPG/1/event.rb)と[変数管理](https://github.com/RPGP1/Tool/blob/master/i386-msvcrt/RPG/1/variable.rb)です。使い方などは少しずつ公開していきます。。
+この中で完成に近いものは、[イベント管理](https://github.com/RPGP1/Tool/blob/master/i386-msvcrt/RPG/1/event.rb)と[変数管理](https://github.com/RPGP1/Tool/blob/master/i386-msvcrt/RPG/1/variable.rb)です。使い方などは少しずつ公開していきます。
 
 ### このサイトについて
 
