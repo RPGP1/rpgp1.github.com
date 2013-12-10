@@ -31,7 +31,7 @@ blockquote {
 
 #header {
   background-color:#000;
-  background-image:url(https://f.cloud.github.com/assets/5576560/1621601/b299c9ea-5691-11e3-9bb9-34e327c3f7dc.png);
+  background-image:url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/headerback.png);
   background-position:left bottom;
   background-repeat:repeat-x;
   padding-bottom:60px;
@@ -83,7 +83,7 @@ blockquote {
   
   /* 背景タイルをリピートする */
   background-color:#fff;
-  background-image:url(https://f.cloud.github.com/assets/5576560/1555561/96321d28-4e69-11e3-886c-f0764c006240.png);
+  background-image:url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/sidebartile2.png);
 }
 
 #sidebar > * {
