@@ -1,12 +1,14 @@
-body {
+html, body {
   text-align:center;
   margin:0;
+  height: 100%;
   
   /* 背景用logoをリピートする */
 }
 
 #container {
-  width:96%;
+  width:90%;
+  height:100%;
   margin-left:auto;
   margin-right:auto;
   text-align:left;
