@@ -1,27 +1,98 @@
----
-layout: default
-title: ホーム
----
-
-ホーム
-------
-
-DXRubyでRPGを作るためのライブラリを作っています。
-
-初心者なので時間がかかると思います。気長にお待ちくださいm(__)m。
-
-### 作ろうとしているもの
-
-DXRuby依存のRPG製作向けライブラリです。
-
-ドラクエシリーズのような、マス目の世界を冒険するRPGを目指しています。
-
-### 進行状況
-
-現在は雑多なスクリプト群ですが、[GitHub](http://github.com/rpgp1/tool "GitHubにジャンプします")に公開してあります。
-
-この中で完成に近いものは、[イベント管理](https://github.com/RPGP1/Tool/blob/master/i386-msvcrt/RPG/1/event.rb)と[変数管理](https://github.com/RPGP1/Tool/blob/master/i386-msvcrt/RPG/1/variable.rb)です。使い方などは少しずつ公開していきます。
-
-### このサイトについて
-
-このサイトは[GitHub Pages](http://pages.github.com/)を利用しています。何かございましたら[ISSUE](https://github.com/RPGP1/rpgp1.github.io/issues)へお願いします。
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+      @font-face {
+        font-family: "DQFont";
+        src: url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/PixelMplus12-Regular.ttf) format("truetype");
+      }
+      
+      html,body {
+        height: 100%;
+        width: 100%
+      }
+      
+      * {
+        line-height:100%; /* 文字どうしを詰める */
+        font-family: "DQFont";
+        margin:0;
+        border:none;
+        text-decoration:none;
+        color:white;
+        background-color:black;
+        
+        position:absolute;
+      }
+      
+      h1 {
+        font-size: 54px;
+      }
+      p {
+        font-size: 28px;
+      }
+      
+      #header {
+        background-image: url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/TopLeft.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/TopRight.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/BottomLeft.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/BottomRight.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Top.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Left.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Right.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Bottom.png);
+        background-position: top left, top right, bottom left, bottom right, top left, top left, top right, bottom left;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x, repeat-y, repeat-y, repeat-x;
+      }
+      
+      #navi {
+        background-image: url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/TopLeft.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/TopRight.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/BottomLeft.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/BottomRight.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Top.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Left.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Right.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Bottom.png);
+        background-position: top left, top right, bottom left, bottom right, top left, top left, top right, bottom left;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x, repeat-y, repeat-y, repeat-x;
+      }
+      
+      #content {
+        background-image: url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/TopLeft.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/TopRight.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/BottomLeft.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/BottomRight.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Top.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Left.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Right.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Bottom.png);
+        background-position: top left, top right, bottom left, bottom right, top left, top left, top right, bottom left;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x, repeat-y, repeat-y, repeat-x;
+      }
+    </style>
+    <title>
+      DXRubyRPG Project
+    </title>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/HOME.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="header">
+      <h1 id="title">
+        DXRuby Project
+      </h1>
+    </div>
+    
+    <div id="battle">
+    </div>
+    
+    <img src="./2.png" id="cursor" />
+    
+    <a href="http://rpgp1.github.io/about">
+      <img src="./2.png" id="about" />
+    </a>
+    
+    <a href="http://rpgp1.github.io/download">
+      <img src="./2.png" id="download" />
+    </a>
+    
+    <a href="http://rpgp1.github.io/link">
+      <img src="./2.png" id="link" />
+    </a>
+    
+    <a href="http://rpgp1.github.io/blog">
+      <img src="./2.png" id="blog" />
+    </a>
+    
+    <div id="navi">
+      <p id="which">
+        どの<br />リンクに<br />進む？
+      </p>
+    </div>
+    
+    <div id="content">
+      <p id="text">
+      </p>
+    </div>
+  </body>
+</html>
