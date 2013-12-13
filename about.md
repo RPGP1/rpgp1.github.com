@@ -33,4 +33,4 @@ DXRuby依存のRPG製作向けライブラリです。
 
 このサイトは公開に[GitHub Pages](http://pages.github.com/)を利用しています。何かございましたら[ISSUE](https://github.com/RPGP1/rpgp1.github.io/issues)へお願いします。
 
-また、[jQuery](http://jquery.com/),[footerFixed.js](http://blog.webcreativepark.net/cgi/mt/mt-bt.cgi/1173)を利用させていただいております。
+また、[jQuery](http://jquery.com/),[footerFixed.js](http://blog.webcreativepark.net/2007/11/16-012253.html)を利用させていただいております。
