@@ -32,28 +32,16 @@ blockquote {
 }
 
 #header {
-  background-color:#000;
-  background-image:url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/headerback.png);
-  background-position:left bottom;
-  background-repeat:repeat-x;
-  padding-bottom:60px;
-  padding-top:10px;
+  background-color:#ff9393;
+  background-image:url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/header.png);
+  background-position:center top;
+  background-repeat:no-repeat;
+  padding-bottom:284px;
 }
 
-#header > h1 {
-  color:#fff;
-  border-bottom:solid 5px #fff;
-  margin-left:1em;
-}
-
-#header > h1:first-letter {
-  color:#000;
-  background-color:#fff;
-  font-size:2em;
-}
-
-#header img {
-  float:right;
+h1 {
+  font-size:12px;
+  height:13px;
 }
 
 #main {
@@ -83,27 +71,24 @@ blockquote {
   width:200px;
   float:right;
   
+  color:white;
+  
   /* 背景タイルをリピートする */
-  background-color:#fff;
-  background-image:url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/sidebartile2.png);
+  background-color:#000;
+  background-image: url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/TopLeft.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/TopRight.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/BottomLeft.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/BottomRight.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Top.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Left.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Right.png), url(https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/Bottom.png);
+  background-position: top left, top right, bottom left, bottom right, top left, top left, top right, bottom left;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x, repeat-y, repeat-y, repeat-x;
 }
 
 #sidebar > * {
-  margin:5px;
+  margin:14px;
 }
 
 #sidebar h3 {
-  color:black;
   border:none;
-  border-top:solid 2px green;
-  border-bottom:solid 2px green;
+  border-top:solid 1px white;
+  border-bottom:solid 1px white;
   text-align:center;
-  background-color:#ccffff;
-}
-
-#sidebar h3:first-letter {
-  font-size:2em;
-  font-weight:bold;
 }
 
 #footer {
