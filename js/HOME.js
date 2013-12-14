@@ -20,8 +20,8 @@ var Home = function(){
     $("#header").height(82);
     
     $("#title").css({top: 14});
-    $("#title").css({left: (this.width - 432) / 2});
-    $("#title").width(432);
+    $("#title").css({left: (this.width - 459) / 2});
+    $("#title").width(459);
     $("#title").height(54);
     
     $("#battle").css({top: 82});
