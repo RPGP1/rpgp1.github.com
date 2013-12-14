@@ -91,6 +91,10 @@ h1 {
   text-align:center;
 }
 
+#sidebar a{
+  color:white;
+}
+
 #footer {
   width:100%;
   clear:left;
@@ -101,6 +105,12 @@ h1 {
   background-repeat:no-repeat, repeat-x;
   background-position:top center, top, left;
   padding-top:375px;
+}
+
+#footer *{
+  color:white;
+  margin-bottom:0px;
+  margin-left:14px;
 }
 
 .postcont {
