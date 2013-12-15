@@ -29,10 +29,10 @@ var Home = function(){
     $("#battle").width(this.width);
     $("#battle").height(this.height - 194);
     
-    var imgw = 98;
-    var imgh = 33;
-    var curw = 98;
-    var curh = 33;
+    var imgw = 105;
+    var imgh = 105;
+    var curw = 105;
+    var curh = 75;
     var m = (this.width - imgw * 4) / 7;
     var h = this.height - 126 - imgh
     
