@@ -7,6 +7,8 @@ excerpt: ゲームの中でも最も色々な要素が絡みこむRPG。DXRuby�
 
 [DXRuby Advent Calendar](http://atnd.org/events/45135)17日目です。前回はあおいたく氏の[僕のコードは地図が読める](http://blog.aotak.me/post/70092390140/fmf-rb)でした。RPGにもかなり関わる話で、参考になりました。技術的にも、他のアプリケーションのバイナリデータを読むという、興味深い内容に思えました。
 
+![2013-12-17](https://googledrive.com/host/0BwVRCae9HsBBNmlTc0JEV0l2RmM/2013-12-17.png)素材は[こちら](http://asuwa.island.ac/mapchip.htm)と[こちら](http://hp.vector.co.jp/authors/VA021244/dot/)から使わせていただきました。
+
 さて、私はRPGを作ろうとしています。ゲームの中でも最も色々な要素が絡みこむRPG。DXRubyで作るにはどうすればいいのか模索してみます。
 
 ### そもそもなぜDXRubyでRPGを作るのか
