@@ -2,8 +2,7 @@ html, body {
   text-align:center;
   margin:0;
   height: 100%;
-  
-  /* 背景用logoをリピートする */
+  color: #3f0102;
 }
 
 #container {
@@ -29,6 +28,15 @@ h3 {
 blockquote {
   background-color:#eee;
   border:dashed 1px black;
+}
+
+p {
+  line-height:150%;
+}
+
+li {
+  line-height:150%;
+  margin:1em 0;
 }
 
 #header {
@@ -95,6 +103,15 @@ h1 {
   color:white;
 }
 
+#sidebar li{
+  margin:none;
+  line-height:0;
+}
+
+#sidebar p{
+  line-height:0;
+}
+
 #footer {
   width:100%;
   clear:left;
@@ -120,13 +137,4 @@ h1 {
 img {
   /* aタグ内などで枠を付けさせない */
   border:none;
-}
-
-p {
-  line-height:150%;
-}
-
-li {
-  line-height:150%;
-  margin:1em 0;
 }
