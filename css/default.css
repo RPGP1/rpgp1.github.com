@@ -104,12 +104,12 @@ h1 {
 }
 
 #sidebar li{
-  margin:none;
-  line-height:0;
+  margin:0;
+  line-height:normal;
 }
 
 #sidebar p{
-  line-height:0;
+  line-height:normal;
 }
 
 #footer {
