@@ -14,6 +14,10 @@ RubyでDirectXを使うためのライブラリです。シンプルな記法で
 
 私たちが作ろうとしているのはこのDXRubyで使うRPGライブラリです。
 
+### [Ruby](https://www.ruby-lang.org/ja/)
+
+プログラミング言語「Ruby」のHPです。リファレンスなどもあります。[るびま](http://magazine.rubyist.net/)も一緒にどうぞ。
+
 ### [mirichiの日記](http://d.hatena.ne.jp/mirichi/)
 
 DXRubyの開発者の方のブログです。DXRubyがどのように作られたかや、その応用などを知ることができます。
