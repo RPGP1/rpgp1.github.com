@@ -114,7 +114,7 @@ h1 {
 
 #footer {
   width:100%;
-  clear:left;
+  clear:both;
   
   /* 背景画像 */
   background-color:#680305;
