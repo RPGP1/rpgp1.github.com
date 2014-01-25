@@ -25,7 +25,7 @@ DXRuby依存のRPG製作向けライブラリです。
 * [変数管理](https://github.com/RPGP1/Tool/blob/master/i386-msvcrt/RPG/1/variable.rb)
 * [シーン管理](https://github.com/RPGP1/Tool/blob/master/i386-msvcrt/RPG/1/game.rb)
 * [イベントシーンクラス](https://github.com/RPGP1/Tool/blob/master/i386-msvcrt/RPG/1/eventscene.rb)
-* [Timer](https://github.com/RPGP1/Tool/blob/master/i386-msvcrt/MyDXLibrary/think_timer.rb)
+* [Timer](https://github.com/RPGP1/Tool/blob/master/i386-msvcrt/MyDXLibrary/timer.rb)
 
 です。使い方などは少しずつ公開していきます。
 
